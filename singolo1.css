@@ -215,3 +215,112 @@ margin-top: 40px;
 		2. styles for elem. header
 		3. styles for descr.  (check letter spacing)
 */
+
+/* Ideas */
+.services-block > .parent-grid > .Ideas {
+    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    padding-left: 80px;
+}
+
+.services-block > .parent-grid > .Ideas > .IdeasH2 {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+}
+
+.services-block > .parent-grid > .Ideas > .Ideas-descr {
+    font-size: 13px;
+    margin-top: 6px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
+
+/* Answer */
+
+.services-block > .parent-grid > .Answer {
+    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    padding-left: 80px;
+}
+
+.services-block > .parent-grid > .Answer > .AnswerH2 {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+}
+
+.services-block > .parent-grid > .Answer > .Answer-descr {
+    font-size: 13px;
+    margin-top: 6px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
+
+/* Layout*/
+
+.services-block > .parent-grid > .Layout {
+    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    padding-left: 80px;
+}
+
+.services-block > .parent-grid > .Layout > .LayoutH2 {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+}
+
+.services-block > .parent-grid > .Layout > .Layout-descr {
+    font-size: 13px;
+    margin-top: 6px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
+
+/* Support*/ 
+
+.services-block > .parent-grid > .Support {
+    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    padding-left: 80px;
+}
+
+.services-block > .parent-grid > .Support > .SupportH2 {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+}
+
+.services-block > .parent-grid > .Support > .Support-descr {
+    font-size: 13px;
+    margin-top: 6px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
+
+/* Star*/
+
+.services-block > .parent-grid > .Star {
+    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    padding-left: 80px;
+}
+
+.services-block > .parent-grid > .Star > .StarH2 {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+}
+
+.services-block > .parent-grid > .Star > .Star-descr {
+    font-size: 13px;
+    margin-top: 6px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
