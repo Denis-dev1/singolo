@@ -173,3 +173,45 @@ margin-top: 40px;
     line-height: 30px;
     letter-spacing: -0.33px;
 }
+
+/*Styles for GridElem below: */
+
+.services-block > .parent-grid > .div {
+    justify-self: left;
+    padding-top: 4px;
+}
+
+.services-block > .parent-grid > .text {
+    padding-left: 10px;
+    padding-top: 1.2px;
+    overflow: hidden;
+    width: 220px;
+    color: #666d89;
+    text-align: justify;
+}
+
+.services-block > .parent-grid > .Design {
+    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    padding-left: 80px;
+}
+
+.services-block > .parent-grid > .Design > .DesignH2 {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+}
+
+.services-block > .parent-grid > .Design > .Design-descr {
+    font-size: 13px;
+    margin-top: 6px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+}
+
+/* Just repeat for all other elements
+		1. upload image
+		2. styles for elem. header
+		3. styles for descr.  (check letter spacing)
+*/
