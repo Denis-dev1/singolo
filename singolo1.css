@@ -218,7 +218,7 @@ margin-top: 40px;
 
 /* Ideas */
 .services-block > .parent-grid > .Ideas {
-    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    background: url(./assets/Bulb.png) no-repeat 0px 3.5px;
     padding-left: 80px;
 }
 
@@ -240,7 +240,7 @@ margin-top: 40px;
 /* Answer */
 
 .services-block > .parent-grid > .Answer {
-    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    background: url(./assets/Heart.png) no-repeat 0px 3.5px;
     padding-left: 80px;
 }
 
@@ -262,7 +262,7 @@ margin-top: 40px;
 /* Layout*/
 
 .services-block > .parent-grid > .Layout {
-    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    background: url(./assets/Phone.png) no-repeat 0px 3.5px;
     padding-left: 80px;
 }
 
@@ -284,7 +284,7 @@ margin-top: 40px;
 /* Support*/ 
 
 .services-block > .parent-grid > .Support {
-    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    background: url(./assets/Bubble.png) no-repeat 0px 3.5px;
     padding-left: 80px;
 }
 
@@ -306,7 +306,7 @@ margin-top: 40px;
 /* Star*/
 
 .services-block > .parent-grid > .Star {
-    background: url(./assets/Pen.png) no-repeat 0px 3.5px;
+    background: url(./assets/Star.png) no-repeat 0px 3.5px;
     padding-left: 80px;
 }
 
