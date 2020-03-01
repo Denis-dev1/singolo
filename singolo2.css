@@ -109,7 +109,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: 445px;
-    grid-column-gap: 20px;
+    grid-column-gap: 19px;
     grid-row-gap: 0px;
     overflow: hidden;
     }
@@ -139,7 +139,7 @@ body .aboutus {
 }
 
 .wrapper-content .descr {
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: -0.34px;
@@ -155,7 +155,7 @@ body .aboutus {
     margin-top: 45px;
 }
 .profile-info .name {
-    padding-bottom: 7px;
+    padding-bottom: 5px;
     font-size: 18px;
     font-weight: 900;
     letter-spacing: -0.049px;
@@ -169,8 +169,8 @@ body .aboutus {
 }
 
 .profile-info .social {
-    margin-right: 5px;
-    padding-top: 27px;
+    margin-right: 3px;
+    padding-top: 22px;
 }
 
 .profile-info .descr {
