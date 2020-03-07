@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 400;
+    background-color: #f2f2f2;
+    min-width: 1020px;
+    margin: 0 auto;
+}
+
+.getaQuote {
+    background-color: #f06c64;
+    border-bottom: 6px solid green;
+
+}
+
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.wrapper-content {
+    padding: 62px 0 0 40px;
+}
+
+.quoteHeader {
+    font-size: 30px;
+    font-weight: 900;
+    /* letter-spacing: -0.004em; */
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: 620px 330px;
+    grid-template-rows: 420px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+    .formGrid .div2 {
+        padding-left: 21px;;
+    }
