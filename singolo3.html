@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singolo3</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./singolo3.css">
 </head>
 <body>
@@ -32,7 +33,7 @@
                                     minlength="2"
                                     maxlength="20"
                                     required>
-                                <br>
+                                
                                 <input 
                                     class="input-field email"
                                     type="email" 
@@ -43,7 +44,7 @@
                                     minlength="2"
                                     maxlength="40"
                                     required>
-                                <br>
+                                
                                 <input
                                     class="input-field subject"
                                     type="text"
@@ -52,8 +53,8 @@
                                     pattern="^[a-zA-Z\s]+$"
                                     title=""
                                     minlength="2"
-                                    maxlength="40" >       <!-- [a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$ -->
-                                <br>
+                                    maxlength="40" >     
+                                
                                 <textarea class="text-area-descr"
                                 name="descr"
                                 placeholder="Describe your project in detail..."></textarea>
@@ -66,28 +67,33 @@
                                     
                             </form>
                         </div>
-                        <div class="div2">
-                            <h3>Contact Information</h3>
-                            <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat
+                        <div class="div2 contact-info">
+                            <h3 class="header">Contact Information</h3>
+                            <p class="descr">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat
                             libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
-                            <p>Elm St. 14/05 Lost City </p>
-                            <p>03528 331 86 35 </p>
-                            <p> info@singolo.com</p>
+                            <p class="location">Elm St. 14/05 Lost City </p>
+                            <p class="phone">03528 331 86 35 </p>
+                            <p class="email"><a class="contact-email-link" href="mailto:info@singolo.com" >info@singolo.com</a></p>
+                            
                         </div>
                           
                     </div>
-                    
-    
-                    <!-- 
-                            Elm St. 14/05 Lost City 
-                            03528 331 86 35 
-                            info@singolo.com
-                    © Copyright 2013 · by PSDchat.com -->
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="wrapper-footer">
+                <p class="copyright">© Copyright 2013</p> <!-- © Copyright 2013 · by PSDchat.com -->
+                <div class="social-icon">
+                    <img class="icon" src="./assets/Singolo2/Facebook.png" alt="Facebook">
+                    <img class="icon" src="./assets/Singolo2/Google.png" alt="Google">
+                    <img class="icon" src="./assets/Singolo2/Twitter.png" alt="Twitter">
+                    <img class="icon" src="./assets/Singolo2/LinkedIn.png" alt="LinkedIn">
+                </div>
+            </div>
+        </div>
 
     </footer>
 </body>
