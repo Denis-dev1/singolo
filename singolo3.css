@@ -7,9 +7,10 @@
 body {
     font-family: "Lato", Arial, sans-serif;
     font-weight: 400;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
     min-width: 1020px;
     margin: 0 auto;
+    color: #f0d8d9;
 }
 
 .getaQuote {
@@ -39,6 +40,7 @@ body {
     grid-template-rows: 420px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-top: 16px;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -47,3 +49,45 @@ body {
     .formGrid .div2 {
         padding-left: 21px;;
     }
+
+    /* Form styles */
+
+    .input-field,
+    .text-area-descr {
+        margin-bottom: 15px;
+        background-color: #d6564f;
+        border-radius: 5px;
+        height: 38px;
+        width: 603px;
+        padding-left: 16px;
+        color: #ee8182;
+    }
+
+    .text-area-descr {
+        height: 190px;
+        padding-top: 13px;
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+        width: 200px;
+        margin: 0px;
+       
+    }
+    .input-field.submit {
+        margin-left: 210px;
+        margin-top: 0%;
+    }
+    
+
+    ::placeholder { 
+        color: #ee8182;
+        /* opacity: 1;  */
+      }
+
+      /* Contact Info Styles */
+
+      
