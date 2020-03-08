@@ -15,7 +15,7 @@ body {
 
 .getaQuote {
     background-color: #f06c64;
-    border-bottom: 6px solid green;
+    border-bottom: 6px solid #ea676b;
 
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .wrapper-content {
-    padding: 62px 0 0 40px;
+    padding: 59px 0 0 40px;
 }
 
 .quoteHeader {
@@ -34,27 +34,38 @@ body {
     /* letter-spacing: -0.004em; */
 }
 
+.quoteDescr{
+    font-size: 18px;
+    padding-top: 18px;
+    line-height: 30px;
+    width: 940px;
+    text-align: justify;
+    letter-spacing: -0.33px;
+}
+
 .formGrid {
     display: grid;
     grid-template-columns: 620px 330px;
     grid-template-rows: 420px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin-top: 16px;
+    margin-top: 28px;
+    margin-bottom: 27px;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 2 / 2 / 3; }
 
     .formGrid .div2 {
-        padding-left: 21px;;
+        padding-left: 20px;
+        padding-top: 14px;
     }
 
     /* Form styles */
 
     .input-field,
     .text-area-descr {
-        margin-bottom: 15px;
+        margin-top: 16px;
         background-color: #d6564f;
         border-radius: 5px;
         height: 38px;
@@ -63,13 +74,21 @@ body {
         color: #ee8182;
     }
 
-    .text-area-descr {
-        height: 190px;
-        padding-top: 13px;
+    .input-field {
         padding-left: 15px;
-        font-size: 14px;
-        line-height: 12px;
+        font-size: 11px;
+        letter-spacing: 0.02em;
+    }
+
+    .text-area-descr {
+        height: 191px;
+        padding-top: 11px;
+        padding-left: 15px;
+        font-size: 13px;
+        font-family: "Lato", Arial, sans-serif;
+        line-height: 13px;
         margin-bottom: 10px;
+        resize: none;
     }
 
     input[type="submit"] {
@@ -80,14 +99,95 @@ body {
     .input-field.submit {
         margin-left: 210px;
         margin-top: 0%;
+        padding: 0;
     }
     
+    input[type="submit"]:hover {
+        opacity: 70%;
+        cursor: pointer;
+    }
 
     ::placeholder { 
         color: #ee8182;
         /* opacity: 1;  */
       }
 
+
       /* Contact Info Styles */
 
+      .div2 .header {
+        margin-bottom: 1px;
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: 0.005em;
+        line-height: 24px;
+      }
+
+      .div2 .descr {
+        margin-bottom: 24px;
+        padding-top: 5px;
+        width: 300px;
+        font-size: 11px;
+        line-height: 22px;
+    
+        text-align: justify;
+      }
       
+      .div2 .location,
+      .div2 .phone,
+      .div2 .email {
+        font-size: 12px;
+        padding-left: 22px;
+      }
+
+      .contact-email-link {
+          color: inherit;
+          text-decoration: none;
+      }
+
+      .contact-email-link:hover {
+          text-decoration: underline;
+      }
+/* Images adding */
+      .div2 .location {
+        background: url(./assets/Singolo2/location.png) 3px 0 no-repeat;
+        margin-bottom: 8px;
+    }
+
+    .div2 .phone {
+        background: url(./assets/Singolo2/phone.png) 1px 0 no-repeat;
+        margin-bottom: 8px;
+    }
+
+    .div2 .email {
+        background: url(./assets/Singolo2/mail.png) 0px 3px no-repeat;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        background-color: #2d303a;
+    }
+
+    .wrapper-footer {
+    padding: 22px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #666d89;
+    }
+
+    .wrapper-footer .copyright {
+        padding-top: 8px;
+        padding-left: 2px;
+        font-size: 12px;
+    }
+
+    .footer .social-icon {
+        display: flex;
+        width: 152px;
+        justify-content: space-between;
+    }
+
+    .social-icon:hover {
+        cursor: pointer;
+    }
